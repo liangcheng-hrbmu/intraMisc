@@ -1,0 +1,47 @@
+Package: intraMisc
+Type: Package
+Title: Integrative analysis for intracellular microbiome and host single-cell & spatial transcriptomics data
+Version: 0.1.0
+Authors@R: c(
+    person("Liang", "Cheng", , "liangcheng@hrbmu.edu.cn", role = "aut"),
+    person("Ping", "Wang", , "ping.wang@hrbmu.edu.cn", role = c("aut", "cre"))
+  )
+Description: intraMisc: Integrative analysis for intracellular microbiome and host single-cell & spatial transcriptomics data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    celldex,
+    dplyr,
+    ggdendro,
+    ggplot2,
+    magrittr,
+    Matrix(>= 1.6.4),
+    methods,
+    microbiome,
+    phyloseq,
+    reshape2,
+    Seurat (>= 5.0.0),
+    SeuratObject (>= 5.0.0),
+    SingleR,
+    stats,
+    stringr,
+    utils
+Depends: 
+    R (>= 4.3.0),
+    DDRTree
+Suggests: 
+    corrplot,
+    cowplot,
+    knitr,
+    microeco,
+    monocle3,
+    patchwork,
+    rmarkdown,
+    SummarizedExperiment,
+    tibble,
+    UpSetR,
+    vegan,
+    VGAM
+VignetteBuilder: knitr
